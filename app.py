@@ -799,4 +799,4 @@ if st.session_state.get('show_success_message', False) and st.session_state.get(
 
 elif st.session_state.get('error_occurred', False) and file is not None: 
     prog_bar_global.empty() 
-    status_text_global.text("Processing failed. Please check errors reported above.")§
+    status_text_global.text("Processing failed. Please check errors reported above.")
